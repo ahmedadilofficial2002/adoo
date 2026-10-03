@@ -1,0 +1,19 @@
+# Normalize line endings on checkout/check-in so Windows CRLF warnings don't spam git add.
+* text=auto eol=lf
+
+# Explicitly mark known binary types so git never tries to diff or recode them.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.webp   binary
+*.woff   binary
+*.woff2  binary
+*.otf    binary
+*.ttf    binary
+*.mp3    binary
+*.mp4    binary
+*.wav    binary
+*.lock   -diff
+*.pbxproj -merge

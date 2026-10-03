@@ -1,14 +1,28 @@
-# === Python / venvs ===
+# === Python / venvs & caches ===
 .venv/
 venv/
 ENV/
 env/
-__pycache__/
+**/__pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
 .eggs/
 build/
 dist/
+*.whl
+*.tar.gz
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+uv.lock.toml
+.uv/
+uv-project/
 
 # === Node / frontend ===
 node_modules/
@@ -17,6 +31,19 @@ out/
 dist/
 coverage/
 .pnpm-store/
+.npm/
+.yarn/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+turbo/
+.turbo/
+*.tsbuildinfo
+
+# === Playwright / browser automation (jarvis_new) ===
+playwright/.cache/
+.ms-playwright*/
+**/ms-playwright/
 
 # === Flutter / build artifacts ===
 .dart_tool/
@@ -25,9 +52,15 @@ coverage/
 .pub/
 build/
 ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
 android/.gradle/
 android/app/build/
+android/local.properties
 macos/Pods/
+macos/Flutter/Flutter.framework/
+macos/Flutter/FlutterMacOS.framework/
+linux/flutter/
+windows/flutter/
 
 # === IDE / Editor ===
 .idea/
@@ -35,19 +68,60 @@ macos/Pods/
 *.swp
 *.swo
 *~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # === OS / misc ===
 .DS_Store
+.DS_Store?
 Thumbs.db
 ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# === Project-local runtime output ===
+# === Project-local runtime output / captures / logs ===
+**/logs/*.log
+!**/logs/.gitkeep
+**/captures/
+captures/
 vb/logs/*.log
 !vb/logs/.gitkeep
 vb/captures/
-captures/
+*.log
 
-# === Env / secrets ===
+# === LiveKit / agent local state ===
+.livekit/
+livekit-sdk/
+
+# === Env / secrets (critical: NEVER commit these) ===
 .env
 .env.local
 .env.*.local
+.env.override
+.secret
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+token.json
+account.json
+service-account*.json
+
+# === Large model weights / caches ===
+*.gguf
+*.safetensors
+*.bin
+.cache/
+huggingface/
+.cache/huggingface/
+.transformers/
+.vosk/
+vosk-model*/
+
