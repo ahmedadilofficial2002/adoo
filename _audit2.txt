@@ -1,0 +1,73 @@
+=== 1. calls on the manager object elsewhere in the project ===
+used: answer, close, connect, dial, get, get_gps, hangup, last_error, list_sms, module_info, reject, send_sms, start_gps
+NOT on the manager: get
+   get -> vb\config\settings.py:113, vb\config\settings.py:114, vb\config\settings.py:115, vb\config\settings.py:116, vb\config\settings.py:117
+
+=== 2. vb.voice.text_to_speech public names ===
+   classes: Settings, SpeechToText, TextToSpeech
+   has SpeechToText: True | has TextToSpeech: True
+   file: c:\ado\jarvis-voice-butler\vb\voice\text_to_speech.py
+
+=== 3. settings the manager reads ===
+   sim808_enabled   = True
+   sim808_port      = 'COM3'
+   sim808_baudrate  = 115200
+   sim808_timeout   = 2
+   voice_enabled    = False
+   log_level        = 'INFO'
+   settings.modem   = None
+   modem.port=None baudrate=None retry_seconds=None max_retries=None
+   -> manager.port='COM3' baudrate=115200 max_retries=None retry_seconds=5.0
+
+=== 4. test inventory ===
+   test_core.py                 10 tests
+   test_sim808_manager.py       24 tests
+   modules under vb/: 41
+      vb\__init__.py
+      vb\__main__.py
+      vb\ai\__init__.py
+      vb\ai\assistant.py
+      vb\ai\prompts.py
+      vb\ai\router.py
+      vb\config\__init__.py
+      vb\config\settings.py
+      vb\core\__init__.py
+      vb\core\errors.py
+      vb\core\events.py
+      vb\core\health.py
+      vb\core\logging_setup.py
+      vb\core\net.py
+      vb\data\__init__.py
+      vb\data\contacts.py
+      vb\data\history.py
+      vb\hardware\__init__.py
+      vb\hardware\at_parsers.py
+      vb\hardware\nmea.py
+      vb\hardware\sim808_compat.py
+      vb\hardware\sim808_manager.py
+      vb\hardware\sim808_state.py
+      vb\main.py
+      vb\security\__init__.py
+      vb\security\permissions.py
+      vb\tools\__init__.py
+      vb\tools\browser.py
+      vb\tools\calculator.py
+      vb\tools\calls.py
+      vb\tools\camera.py
+      vb\tools\desktop.py
+      vb\tools\email.py
+      vb\tools\gps.py
+      vb\tools\navigation.py
+      vb\tools\runtime.py
+      vb\tools\sms.py
+      vb\tools\vision.py
+      vb\tools\weather.py
+      vb\voice\__init__.py
+      vb\voice\text_to_speech.py
+
+=== 5. leftovers / markers ===
+   vb\tools\email.py:88: except Exception:
+   jarvis_new\src\browser.py:131: except Exception:
+
+=== 6. refs to the deleted speech_to_text module (all file types) ===
+   (done)

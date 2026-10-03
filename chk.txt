@@ -1,0 +1,7 @@
+process probe failed: [WinError 2] The system cannot find the file specified
+flask OK 3.1.3
+vb.log exists=True size=3975
+vb.log tail: 0:17:20,870 INFO comtypes.client._generate: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: Typelib different than module
+2026-09-28 10:17:20,878 INFO comtypes.client._generate: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-09-28 10:17:21,201 INFO comtypes.client._generate: # Generating comtypes.gen.SpeechLib
+2026-09-28 10:17:52,427 WARNING vb.ai: Local AI request failed: 404 Client Error: Not Found for url: http://127.0.0.1:11434/api/chat
