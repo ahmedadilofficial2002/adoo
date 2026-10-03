@@ -1,0 +1,53 @@
+# === Python / venvs ===
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# === Node / frontend ===
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.pnpm-store/
+
+# === Flutter / build artifacts ===
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+macos/Pods/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS / misc ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# === Project-local runtime output ===
+vb/logs/*.log
+!vb/logs/.gitkeep
+vb/captures/
+captures/
+
+# === Env / secrets ===
+.env
+.env.local
+.env.*.local

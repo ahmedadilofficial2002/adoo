@@ -1,0 +1,62 @@
+2026-09-26 20:23:06,757 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-26 20:23:06,762 INFO vb.sim808: Starting GPS background tracker
+2026-09-26 20:23:06,764 WARNING vb.voice: TTS unavailable: No module named 'pyttsx3'
+2026-09-26 20:23:12,373 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-26 20:23:12,375 INFO vb.sim808: Starting GPS background tracker
+2026-09-26 20:23:12,380 WARNING vb.voice: TTS unavailable: No module named 'pyttsx3'
+2026-09-26 20:24:22,181 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-26 20:24:22,186 WARNING vb: SIM808 unavailable; local tools still work.
+2026-09-26 20:24:22,192 WARNING vb.voice: TTS unavailable: No module named 'pyttsx3'
+2026-09-27 12:31:28,072 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-27 12:31:28,080 WARNING vb: SIM808 unavailable; local tools still work.
+2026-09-27 12:31:28,398 INFO comtypes.client._code_cache: Could not import comtypes.gen, trying to create it.
+2026-09-27 12:31:28,400 INFO comtypes.client._code_cache: Created comtypes.gen directory: 'C:\Users\A.A.A\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+2026-09-27 12:31:28,402 INFO comtypes.client._code_cache: Writing __init__.py file: 'C:\Users\A.A.A\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen\__init__.py'
+2026-09-27 12:31:28,461 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\A.A.A\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+2026-09-27 12:31:28,532 INFO comtypes.client._generate: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-09-27 12:31:28,563 INFO comtypes.client._generate: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-09-27 12:31:29,471 INFO comtypes.client._generate: # Generating comtypes.gen.SpeechLib
+2026-09-27 12:31:29,570 INFO comtypes.client._generate: Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-09-27 12:31:29,598 INFO comtypes.client._generate: # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-09-27 12:31:29,673 INFO comtypes.client._generate: # Generating comtypes.gen.stdole
+2026-09-27 12:33:26,690 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-27 12:33:26,698 WARNING vb: SIM808 unavailable; local tools still work.
+2026-09-27 12:33:26,902 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\A.A.A\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-09-27 12:33:26,904 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\A.A.A\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+2026-09-28 10:17:20,335 WARNING vb.sim808: No AT OK from COM3: ''
+2026-09-28 10:17:20,336 WARNING vb: SIM808 unavailable; local tools still work.
+2026-09-28 10:17:20,536 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\A.A.A\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-09-28 10:17:20,537 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\A.A.A\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+2026-09-28 10:17:20,870 INFO comtypes.client._generate: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: Typelib different than module
+2026-09-28 10:17:20,878 INFO comtypes.client._generate: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-09-28 10:17:21,201 INFO comtypes.client._generate: # Generating comtypes.gen.SpeechLib
+2026-09-28 10:17:52,427 WARNING vb.ai: Local AI request failed: 404 Client Error: Not Found for url: http://127.0.0.1:11434/api/chat
+2026-10-03 09:22:15,462 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:22:15,536 INFO comtypes.client._code_cache: Could not import comtypes.gen, trying to create it.
+2026-10-03 09:22:15,537 INFO comtypes.client._code_cache: Created comtypes.gen directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:22:15,537 INFO comtypes.client._code_cache: Writing __init__.py file: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen\__init__.py'
+2026-10-03 09:22:15,548 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:22:15,561 INFO comtypes.client._generate: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-10-03 09:22:15,566 INFO comtypes.client._generate: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-10-03 09:22:15,646 INFO comtypes.client._generate: # Generating comtypes.gen.SpeechLib
+2026-10-03 09:22:15,653 INFO comtypes.client._generate: Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-10-03 09:22:15,654 INFO comtypes.client._generate: # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-10-03 09:22:15,661 INFO comtypes.client._generate: # Generating comtypes.gen.stdole
+2026-10-03 09:26:30,819 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:26:30,930 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:26:30,930 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:32:04,798 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:32:04,866 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:32:04,866 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:32:05,533 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:32:05,595 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:32:05,595 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:32:06,266 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:32:06,333 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:32:06,333 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:32:07,227 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:32:07,300 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:32:07,301 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
+2026-10-03 09:32:15,208 WARNING vb: SIM808 unavailable; local tools still work.
+2026-10-03 09:32:15,276 INFO comtypes.client._code_cache: Imported existing <module 'comtypes.gen' from 'C:\\Users\\ahmed\\Desktop\\ado\\jarvis-voice-butler\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-10-03 09:32:15,277 INFO comtypes.client._code_cache: Using writeable comtypes cache directory: 'C:\Users\ahmed\Desktop\ado\jarvis-voice-butler\.venv\Lib\site-packages\comtypes\gen'
